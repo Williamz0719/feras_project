@@ -1,0 +1,83 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif; /* Change font to Times New Roman */
+    color: white;
+    background-color: black; /* Set background color of the website */
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: url('IMG_6641.PNG') no-repeat;
+    background-position: cover; /* Position the image in the top right corner */
+    background-size: 40% auto; /* Increase horizontal length of the image */
+    height: 90vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    position: relative; /* Ensure proper positioning of content within the header */
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    padding: 20px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid white; /* White border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for 3D effect */
+    max-width: 80%; /* Limit the width of the box */
+}
+
+.header-content h1 {
+    font-size: 2.5rem; /* Adjust font size */
+    margin: 0;
+    padding: 0;
+    line-height: 1.2; /* Adjust line height for readability */
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 0 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+}
